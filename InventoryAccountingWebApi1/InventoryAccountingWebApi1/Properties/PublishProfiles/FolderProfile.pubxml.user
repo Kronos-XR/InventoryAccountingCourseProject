@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\KronosXR\source\repos\InventoryAccountingWebApi1\InventoryAccountingWebApi1\bin\Release\net5.0\publish\</_PublishTargetUrl>
+    <History>True|2023-03-17T07:31:31.5932857Z;True|2023-03-12T00:43:18.8040449+03:00;True|2023-03-12T00:42:55.8900408+03:00;True|2023-03-12T00:42:07.2702093+03:00;True|2023-03-12T00:15:27.8483387+03:00;True|2023-03-09T21:08:51.9173150+03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

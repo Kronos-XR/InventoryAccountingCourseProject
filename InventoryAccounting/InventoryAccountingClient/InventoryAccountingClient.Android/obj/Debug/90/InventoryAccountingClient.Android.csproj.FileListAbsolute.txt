@@ -1,0 +1,3 @@
+C:\Users\KronosXR\Desktop\shit\InventoryAccounting\InventoryAccountingClient\InventoryAccountingClient.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+C:\Users\KronosXR\Desktop\shit\InventoryAccounting\InventoryAccountingClient\InventoryAccountingClient.Android\obj\Debug\90\build.props
+C:\Users\KronosXR\Desktop\shit\InventoryAccounting\InventoryAccountingClient\InventoryAccountingClient.Android\obj\Debug\90\adb.props

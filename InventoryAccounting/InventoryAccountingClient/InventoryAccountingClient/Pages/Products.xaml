@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="InventoryAccountingClient.Pages.Products" NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal" >
+                <Button Text="Категории" x:Name="ButtonShowCategory" Clicked="ButtonShowCategory_Clicked"/>
+                <Button Text="Пользователи" x:Name="ButtonShowUsers" Clicked="ButtonShowUsers_Clicked" IsVisible="false"/>
+                <Button Text="Роли" x:Name="ButtonShowRole" Clicked="ButtonShowRole_Clicked" IsVisible="false"/>
+            </StackLayout>
+            <StackLayout >
+                <ListView  x:Name="LvData" ItemTapped="ListLVData_ItemTapped" HasUnevenRows="True">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Margin="2,5,2,10" VerticalOptions="Fill" Padding="20" BackgroundColor="Black" >
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition />
+                                            <RowDefinition Height="auto"/>
+                                            <RowDefinition Height="auto"/>
+                                            <RowDefinition Height="auto"/>
+                                            <RowDefinition Height="auto"/>
+                                        </Grid.RowDefinitions>
+
+                                        <StackLayout Grid.Row="0" Orientation="Horizontal" >
+                                            <Label Text="ID: " FontSize="24" TextColor="Aqua"/>
+                                            <Label Text="{Binding Id}" FontSize="24"/>
+                                        </StackLayout>
+                                        <StackLayout Grid.Row="1" Orientation="Horizontal">
+                                            <Label Text="Название: " FontSize="24"/>
+                                            <Label Text="{Binding Name}" FontSize="24"/>
+                                        </StackLayout>
+                                        <StackLayout Grid.Row="2" Orientation="Horizontal">
+                                            <Label Text="Колличество: " FontSize="24"/>
+                                            <Label Text="{Binding Quantity}" FontSize="24"/>
+                                        </StackLayout>
+                                        <StackLayout Grid.Row="3" Orientation="Horizontal">
+                                            <Label Text="Категория: " FontSize="24"/>
+                                            <Label Text="{Binding IdCategory}" FontSize="24"/>
+                                        </StackLayout>
+                                    </Grid>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+            <StackLayout>
+                <Button Text="Добавить новый предмет" Clicked="ButtonAdd_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

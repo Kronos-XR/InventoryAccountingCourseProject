@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryAccountingWebApi1", "InventoryAccountingWebApi1\InventoryAccountingWebApi1.csproj", "{E2A0A83F-10FE-4058-82F6-8013A5F6C2DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2A0A83F-10FE-4058-82F6-8013A5F6C2DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A0A83F-10FE-4058-82F6-8013A5F6C2DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A0A83F-10FE-4058-82F6-8013A5F6C2DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A0A83F-10FE-4058-82F6-8013A5F6C2DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DEF6255-99A7-4D9F-9946-E9C9BCA35AF9}
+	EndGlobalSection
+EndGlobal

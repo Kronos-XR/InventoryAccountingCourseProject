@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="InventoryAccountingClient.Pages.AuthPage" NavigationPage.HasNavigationBar="False" >
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" Margin="0,0,0,110">
+            <Label Text="Авторизируйтесь" HorizontalOptions="Center" FontSize="28"/>
+            <Entry x:Name="EntrLog"  Placeholder="Login"/>
+            <Entry x:Name="EntrPass" Placeholder="Password"/>
+            <Button Text="Вход" Clicked="ButtonAuth_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
